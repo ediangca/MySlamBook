@@ -41,7 +41,7 @@ class MenuActivity : AppCompatActivity() {
     }
 
     private fun btnCreateOnClickListener() {
-        var nextForm = Intent(this, Form1Activity::class.java)
+        var nextForm = Intent(this, FormActivity::class.java)
         nextForm.putExtra("slamBooK", slamBook)
         startActivity(nextForm)
         finish()

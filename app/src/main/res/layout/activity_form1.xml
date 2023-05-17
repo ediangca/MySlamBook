@@ -190,7 +190,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="6"
-                android:entries="@array/month"
+                android:entries="@array/monthDay"
                 android:nextFocusDown="@id/dateDay" />
 
             <Spinner
@@ -198,7 +198,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
-                android:entries="@array/day"
+                android:entries="@array/monthDay"
                 android:nextFocusDown="@id/dateYear" />
 
             <com.google.android.material.textfield.TextInputLayout

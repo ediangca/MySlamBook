@@ -7,8 +7,6 @@ import android.util.Log
 import com.google.android.material.snackbar.Snackbar
 import com.kodego.diangca.ebrahim.myslambook.databinding.ActivityForm1Binding
 import com.kodego.diangca.ebrahim.myslambook.model.SlamBook
-import java.time.LocalDate
-import java.time.format.DateTimeFormatter
 
 class Form1Activity : AppCompatActivity() {
 
@@ -29,6 +27,7 @@ class Form1Activity : AppCompatActivity() {
         binding.btnNext.setOnClickListener {
             btnNextOnClickListener()
         }
+
     }
 
     private fun btnNextOnClickListener() {
@@ -52,6 +51,8 @@ class Form1Activity : AppCompatActivity() {
 
             return
         }
+
+
         slamBook.nickName = binding.nickName.text.toString()
         slamBook.friendCallMe = binding.friendCall.text.toString()
         slamBook.likeToCallMe = binding.likeToCall.text.toString()
